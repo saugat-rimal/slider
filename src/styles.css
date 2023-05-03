@@ -135,6 +135,17 @@ dd {
 }
 
 
+/* slider settings  */
+.swiper-pagination-fraction {
+    /* font-family: 'Manrope'; */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8C8C8C;
+
+}
+
+
 .swiper-button-next:after,
 .swiper-button-prev:after {
     font-family: swiper-icons;
@@ -169,6 +180,6 @@ dd {
 
 .swiper-slide,
 .swiper-slide {
-    height: 70vh !important;
+    min-height: 70vh !important;
 
 }
